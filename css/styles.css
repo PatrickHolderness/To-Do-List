@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Source+Sans+Pro:wght@800&display=swap');
+
+
+body {
+font:normal 15px/18px "Source Sans Pro", sans-serif, bold;
+background: #fdf2cd;
+}
+
+.container{
+padding: 40px;
+width: 400px;
+margin: 0 auto;
+margin-top: 40px;
+background: rgb(255, 255, 255, 0.5);
+border-radius: 5px;}
+
+form {
+display: inline-block;
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+#button{
+display: inline-block;
+background-color:#99a1fc;
+color:#000000;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+text-transform:capitalize
+transition-duration: 0.7s;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .5;
+background-color: #ff0000; 
+color: white;}
+
+ol {padding-left: 20px;}
+
+ol li {padding: 5px;color:rgb(14, 10, 10);}
+
+ol li:nth-child(even){background: #ffffff00;}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #000000;
+	font-weight: 400;
+}
